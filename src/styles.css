@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 html,
@@ -17,7 +17,7 @@ body {
 }
 
 #root {
-  background: lightblue;
+  background: purple;
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -36,7 +36,7 @@ body {
 }
 
 #root > div > div {
-  background-color: white;
+  background-color: yellow;
   background-size: auto 85%;
   background-repeat: no-repeat;
   background-position: center center;
